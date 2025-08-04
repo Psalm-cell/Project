@@ -5,15 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b24c219837.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#profile">Profile</a></li>
+            <li class="active"><a href="#home">Home</a></li>
+            <li class="drop"><a href="#contact" class="drop-a">Contact</a>
+            <div class="dropdown-content">
+                <a href="https://web.facebook.com/profile.php?id=100088233870583" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.link/ir2ee5" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://x.com/Adesany60857357" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            </li>
+            <li class="right"><a href="#about">About</a></li>
+            <li class="right"><a href="#profile">Profile</a></li>
         </ul>
     </nav>
+
+    <section>
+         <div class="dropdown">
+            <h2>CSS Dropdown</h2>
+        <span>Hover this!</span>
+        <div class="dropdown-content">
+            <p>Interesting right, isn't? 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo nisi unde quibusdam similique, omnis consequatur? Non atque maiores dicta, ducimus quis architecto saepe magnam quod quia accusantium voluptas, officiis sit?</p>
+        </div>
+        </div>
+    </section>
+  
 </body>
 </html>
